@@ -48,7 +48,6 @@ for ($j = 1; $j <= 5; $j++) {
 </pre>
 
 ### Functions
-
 <pre>
   <?php
 function greet($name) {
@@ -56,6 +55,7 @@ function greet($name) {
 }
 echo greet("Ntanga");
 ?>
+  
 </pre>
 
 ### Arrays
