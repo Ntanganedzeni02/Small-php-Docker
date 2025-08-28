@@ -22,39 +22,40 @@
 ### Conditions
 <pre>  
   <?php
-$age = 18;
-if ($age >= 18) {
-  echo "You’re an adult";
-} else {
-  echo "You’re a minor";
-}
-?>
+  $age = 18;
+  if ($age >= 18) {
+    echo "You’re an adult";
+  } else {
+      echo "You’re a minor";
+  }
+  ?>
 </pre>
 
 ### Loops
 
 <pre> 
   While loop
-$i = 1;
-while ($i <= 5) {
-  echo $i;
-  $i++;
+    $i = 1;
+    while ($i <= 5) {
+      echo $i;
+      $i++;
 }
 
-For loop
-for ($j = 1; $j <= 5; $j++) {
-  echo $j;
-}
+  For loop
+    for ($j = 1; $j <= 5; $j++) {
+      echo $j;
+  }
 </pre>
 
 ### Functions
+
 <pre>
   <?php
-function greet($name) {
-  return "Hello, $name!";
-}
-echo greet("Ntanga");
-?>
+  function greet($name) {
+    return "Hello, $name!";
+  }
+    echo greet("Ntanga");
+  ?>
   
 </pre>
 
