@@ -1,7 +1,6 @@
 <?php
-include 'db.php'; // this gives us $mysqli
+include 'db.php'; 
 
-// Fetch users
 $result = $mysqli->query("SELECT * FROM users");
 ?>
 <!DOCTYPE html>
